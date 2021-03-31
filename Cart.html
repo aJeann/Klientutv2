@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Cart</title>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <a href="index.html"><h1>Webshop</h1></a>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li class="Cart">
+                    <a href="Cart.html">
+                         Kundvagn: <span>0</span>
+                    </a>
+                </li>
+            </ul>         
+               
+        </div>
+    </nav>
+
+    <section id="showcase">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="products-con">
+                        <h2>KUNDVAGN</h2>
+                        <div class="prod-head"></div>
+                    
+                        <div class="product-cart">
+            
+                        </div>
+                        <h5 class="totalPrice">Totalt pris:  <span>0</span>kr</h5>
+                    </div>
+                </div>
+    
+                <div class="col-6">
+                        <h2>KUNDINFORMATION</h2>
+                        <div class="prod-head"></div>
+                    <form>
+                        <div class="form-group">
+                            <label for="Order-name">Namn</label>
+                            <input type="Name" class="form-control" id="InputName" aria-describedby="InputName" placeholder="Namn">
+                            <span class="feedback-span"></span>
+                            
+                          </div>
+                          <div class="form-group">
+                            <label for="Inputphone">Telefon</label>
+                            <input type="phone-nmbr" class="form-control" id="InputPhone" aria-describedby="phone-nmbr" placeholder="Telefon">
+                            <span></span>
+                          </div>
+                        <div class="form-group">
+                          <label for="InputEmail">Email address</label>
+                          <input type="email" class="form-control" id="InputEmail" aria-describedby="email" placeholder="Email">
+                          <span></span>
+                        </div>
+                        <div class="form-group">
+                          <label for="Inputaddress">Leveransadress</label>
+                          <input type="adress" class="form-control" id="InputAdress" placeholder="Leveransadress">
+                          <span></span>
+                        </div>
+                        
+                        <button type="submit" class="Submit-button" id="SubmitBtn">Avsluta order</button>
+                      </form>
+                </div>
+                
+            </div>
+        </div>     
+        
+    </section>
+    
+
+    <footer id="main-footer">
+        <hr>
+        <p>Copyright &copy; 2021 - Axel Jeansson - axel.jeansson@hotmail.se</p>
+    </footer>
+    <script src="Script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

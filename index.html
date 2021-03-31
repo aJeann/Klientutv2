@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="Style.css">
+    <title>Main</title>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <a href="index.html"><h1>Webshop</h1></a>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="container">
+    
+           <a href="index.html">Startsida</a>
+           <a class="Cart" href="Cart.html">
+            Kundvagn: <span>0</span>
+           </a>
+               
+        </div>
+    </nav>
+
+    <section id="showcase">
+        <h2>Hetaste produkterna</h2>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images/img1.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images/img2.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images/img3.jpg" style="width:100%">
+            </div>
+          
+        
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h1>Produkter</h1>
+            <div class="products">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="box">
+                            <img id="img1">
+                        <h3 id="p1"></h3>
+                        <p id="l1"></p>
+                        <p id="pris1"></p>
+                        <button type="button" class="btn add btn-outline-success 1" id="addToCart">Lägg till i varukorg</button> 
+                        </div>
+                    </div>
+                    <div class="col-4 2">
+                        <div class="box">
+                            <img id="img2">
+                        <h3 id="p2"></h3>
+                        <p id="l2"></p>
+                        <p id="pris2"></p>
+                        <button type="button" class="btn add btn-outline-success 2" id="addToCart">Lägg till i varukorg</button>      
+                        </div>
+                        
+                    </div>
+                    <div class="col-4 3">
+                        <div class="box">
+                            <img id="img3">
+                        <h3 id="p3"></h3>
+                        <p id="l3"></p>
+                        <p id="pris3"></p>
+                        <button type="button" class="btn add btn-outline-success 3" id="addToCart">Lägg till i varukorg</button>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 4">
+                        <div class="box">
+                            <img id="img4">
+                        <h3 id="p4"></h3>
+                        <p id="l4"></p>
+                        <p id="pris4"></p>
+                        <button type="button" class="btn add btn-outline-success 4" id="addToCart">Lägg till i varukorg</button>
+                        </div>
+                        
+                    </div>
+                    <div class="col-4 5">
+                        <div class="box">
+                            <img id="img5">
+                        <h3 id="p5"></h3>
+                        <p id="l5"></p>
+                        <p id="pris5"></p>
+                        <button type="button" class="btn add btn-outline-success 5" id="addToCart">Lägg till i varukorg</button>
+                        </div>
+                        
+                    </div>
+                    <div class="col-4 6">
+                        <div class="box">
+                            <img id="img6">
+                        <h3 id="p6"></h3>
+                        <p id="l6"></p>
+                        <p id="pris6"></p>
+                        <button type="button" class="btn add btn-outline-success 6" id="addToCart">Lägg till i varukorg</button>
+                        </div>
+                        
+                    </div>
+                                     
+                </div>
+        
+            </div>
+        </div>
+    </section>
+    
+
+    <footer id="main-footer">
+        <hr>
+        <p>Copyright &copy; 2021 - Axel Jeansson - axel.jeansson@hotmail.se</p>
+    </footer>
+    <script src="Script.js"></script>
+    <script src="Carousel.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
